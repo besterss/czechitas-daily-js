@@ -1,5 +1,3 @@
 // Import stylesheets
-import './style.css';
+import './promenne/ukol1';
 
-// Write Javascript code!
-console.log
