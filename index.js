@@ -1,3 +1,3 @@
 // Import stylesheets
-import './promenne/ukol1';
+import './cykly/ukol1';
 
