@@ -9,7 +9,9 @@ nezadá číslo odlišné od 0.
  
 let cislo = Number(prompt("Zadej číslo odlišné od 0"))
 
-while(cislo === 0){
+while
+(cislo === 0) 
+{
   alert("Zadal jsi číslo: 0. Zadej prosím odlišné číslo od 0")
   cislo = Number(prompt("Zadej číslo odlišné od 0"))
 }
