@@ -17,8 +17,8 @@ function srnp(x,y) {
  console.log("Podíl: "+x+"/"+y+"="+podil)
 }
 
-let x = Number(prompt("Zadej X"))
-let y = Number(prompt("Zadej Y"))
+let x = 1//Number(prompt("Zadej X"))
+let y = 2//Number(prompt("Zadej Y"))
 
 srnp(x,y)
 
@@ -31,3 +31,19 @@ nebo není prvočíslo.
 - v první moment pčedpokládejme, ze číslo JE prvočíslo a
 budeme případně rozporovat toto tvrzeni.
 */
+
+function jePrvocislo(x) {
+  let jePrvocislo = true
+
+  for(let i = 2; i < x; i++){
+    if( x % i == 0){
+      jePrvocislo = false
+      break;
+    }
+  }
+  return jePrvocislo
+}
+
+console.log(jePrvocislo(32))
+
+
